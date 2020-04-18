@@ -13,6 +13,13 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 
 Plug 'scrooloose/syntastic'
 
+Plug 'pangloss/vim-javascript'
+Plug 'leafgarland/typescript-vim'
+Plug 'maxmellon/vim-jsx-pretty'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+command! -nargs=0 Prettier :call CocAction('runCommand', 'prettier.formatFile')
+
 " Initialize plugin system
 call plug#end()
 

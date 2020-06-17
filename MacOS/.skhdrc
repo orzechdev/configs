@@ -178,5 +178,5 @@ cmd - left : yabai -m space --focus prev
 cmd - right : yabai -m space --focus next
 #
 # focus display
-cmd - d : yabai -m display --focus recent
+cmd - e : yabai -m display --focus recent
 

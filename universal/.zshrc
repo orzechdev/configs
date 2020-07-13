@@ -106,3 +106,4 @@ source $ZSH/oh-my-zsh.sh
 # alias ls="sleep 1h"
 alias n="npm"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+eval "$(direnv hook zsh)"
